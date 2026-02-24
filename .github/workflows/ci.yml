@@ -1,0 +1,33 @@
+name: ci
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore
+        run: dotnet restore src/FamilyChat.Api/FamilyChat.Api.csproj
+
+      - name: Build API
+        run: dotnet build src/FamilyChat.Api/FamilyChat.Api.csproj --configuration Release --no-restore
+
+      - name: Run Unit Tests
+        run: dotnet test tests/FamilyChat.UnitTests/FamilyChat.UnitTests.csproj --configuration Release --no-build
+
+      - name: Run Integration Tests
+        run: dotnet test tests/FamilyChat.IntegrationTests/FamilyChat.IntegrationTests.csproj --configuration Release --no-build
+
+      - name: Run Realtime Tests
+        run: dotnet test tests/FamilyChat.RealtimeTests/FamilyChat.RealtimeTests.csproj --configuration Release --no-build

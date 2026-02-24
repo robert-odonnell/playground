@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FamilyChat.Maui.Pages.LoginPage"
+             Title="Family Chat Login">
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="16">
+            <Label Text="Sign In" FontSize="24" FontAttributes="Bold" />
+
+            <Entry Placeholder="Email" Text="{Binding Email}" Keyboard="Email" />
+            <Button Text="Request Magic Link" Command="{Binding RequestLinkCommand}" />
+
+            <Entry Placeholder="Paste Token from Email" Text="{Binding Token}" />
+            <Button Text="Verify Token" Command="{Binding VerifyTokenCommand}" />
+
+            <Label Text="{Binding Status}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

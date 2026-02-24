@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:contracts="clr-namespace:FamilyChat.Contracts.Conversations;assembly=FamilyChat.Contracts"
+             x:Class="FamilyChat.Maui.Pages.ConversationsPage"
+             Title="Conversations">
+    <Grid RowDefinitions="Auto,*" Padding="16">
+        <Button Text="Refresh" Command="{Binding LoadCommand}" />
+
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Conversations}" SelectionMode="Single" x:Name="ConversationsList" SelectionChanged="OnSelectionChanged">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="contracts:ConversationDto">
+                    <Grid Padding="8" ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto">
+                        <Label Text="{Binding Name}" FontAttributes="Bold" />
+                        <Label Grid.Column="1" Text="{Binding UnreadCount}" TextColor="#0EA5E9" />
+                        <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding Topic}" FontSize="12" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

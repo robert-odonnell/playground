@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FamilyChat.Api/FamilyChat.Api.csproj" />
+    <Project Path="src/FamilyChat.Application/FamilyChat.Application.csproj" />
+    <Project Path="src/FamilyChat.ClientSdk/FamilyChat.ClientSdk.csproj" />
+    <Project Path="src/FamilyChat.Contracts/FamilyChat.Contracts.csproj" />
+    <Project Path="src/FamilyChat.Domain/FamilyChat.Domain.csproj" />
+    <Project Path="src/FamilyChat.Infrastructure/FamilyChat.Infrastructure.csproj" />
+    <Project Path="src/FamilyChat.Maui/FamilyChat.Maui.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FamilyChat.IntegrationTests/FamilyChat.IntegrationTests.csproj" />
+    <Project Path="tests/FamilyChat.RealtimeTests/FamilyChat.RealtimeTests.csproj" />
+    <Project Path="tests/FamilyChat.UnitTests/FamilyChat.UnitTests.csproj" />
+  </Folder>
+</Solution>
