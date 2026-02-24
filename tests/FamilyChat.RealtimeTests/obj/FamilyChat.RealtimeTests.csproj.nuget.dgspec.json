@@ -1,40 +1,47 @@
 {
   "format": 1,
   "restore": {
-    "/home/roberto/playground/tests/FamilyChat.RealtimeTests/FamilyChat.RealtimeTests.csproj": {}
+    "D:\\Projects\\playground\\tests\\FamilyChat.RealtimeTests\\FamilyChat.RealtimeTests.csproj": {}
   },
   "projects": {
-    "/home/roberto/playground/src/FamilyChat.Api/FamilyChat.Api.csproj": {
+    "D:\\Projects\\playground\\src\\FamilyChat.Api\\FamilyChat.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/roberto/playground/src/FamilyChat.Api/FamilyChat.Api.csproj",
+        "projectUniqueName": "D:\\Projects\\playground\\src\\FamilyChat.Api\\FamilyChat.Api.csproj",
         "projectName": "FamilyChat.Api",
-        "projectPath": "/home/roberto/playground/src/FamilyChat.Api/FamilyChat.Api.csproj",
-        "packagesPath": "/home/roberto/.nuget/packages/",
-        "outputPath": "/home/roberto/playground/src/FamilyChat.Api/obj/",
+        "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Api\\FamilyChat.Api.csproj",
+        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\playground\\src\\FamilyChat.Api\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/roberto/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/roberto/playground/src/FamilyChat.Application/FamilyChat.Application.csproj": {
-                "projectPath": "/home/roberto/playground/src/FamilyChat.Application/FamilyChat.Application.csproj"
+              "D:\\Projects\\playground\\src\\FamilyChat.Application\\FamilyChat.Application.csproj": {
+                "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Application\\FamilyChat.Application.csproj"
               },
-              "/home/roberto/playground/src/FamilyChat.Contracts/FamilyChat.Contracts.csproj": {
-                "projectPath": "/home/roberto/playground/src/FamilyChat.Contracts/FamilyChat.Contracts.csproj"
+              "D:\\Projects\\playground\\src\\FamilyChat.Contracts\\FamilyChat.Contracts.csproj": {
+                "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Contracts\\FamilyChat.Contracts.csproj"
               },
-              "/home/roberto/playground/src/FamilyChat.Infrastructure/FamilyChat.Infrastructure.csproj": {
-                "projectPath": "/home/roberto/playground/src/FamilyChat.Infrastructure/FamilyChat.Infrastructure.csproj"
+              "D:\\Projects\\playground\\src\\FamilyChat.Infrastructure\\FamilyChat.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Infrastructure\\FamilyChat.Infrastructure.csproj"
               }
             }
           }
@@ -87,6 +94,7 @@
             "Microsoft.EntityFrameworkCore.SqlServer": "10.0.0",
             "Microsoft.EntityFrameworkCore.Tools": "10.0.0",
             "Microsoft.Extensions.Http": "10.0.0",
+            "Microsoft.Extensions.Logging.Debug": "10.0.0",
             "Microsoft.NET.Test.Sdk": "17.14.1",
             "Moq": "4.20.72",
             "NUlid": "1.7.3",
@@ -116,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/roberto/.dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -534,34 +542,41 @@
         }
       }
     },
-    "/home/roberto/playground/src/FamilyChat.Application/FamilyChat.Application.csproj": {
+    "D:\\Projects\\playground\\src\\FamilyChat.Application\\FamilyChat.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/roberto/playground/src/FamilyChat.Application/FamilyChat.Application.csproj",
+        "projectUniqueName": "D:\\Projects\\playground\\src\\FamilyChat.Application\\FamilyChat.Application.csproj",
         "projectName": "FamilyChat.Application",
-        "projectPath": "/home/roberto/playground/src/FamilyChat.Application/FamilyChat.Application.csproj",
-        "packagesPath": "/home/roberto/.nuget/packages/",
-        "outputPath": "/home/roberto/playground/src/FamilyChat.Application/obj/",
+        "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Application\\FamilyChat.Application.csproj",
+        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\playground\\src\\FamilyChat.Application\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/roberto/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/roberto/playground/src/FamilyChat.Contracts/FamilyChat.Contracts.csproj": {
-                "projectPath": "/home/roberto/playground/src/FamilyChat.Contracts/FamilyChat.Contracts.csproj"
+              "D:\\Projects\\playground\\src\\FamilyChat.Contracts\\FamilyChat.Contracts.csproj": {
+                "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Contracts\\FamilyChat.Contracts.csproj"
               },
-              "/home/roberto/playground/src/FamilyChat.Domain/FamilyChat.Domain.csproj": {
-                "projectPath": "/home/roberto/playground/src/FamilyChat.Domain/FamilyChat.Domain.csproj"
+              "D:\\Projects\\playground\\src\\FamilyChat.Domain\\FamilyChat.Domain.csproj": {
+                "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Domain\\FamilyChat.Domain.csproj"
               }
             }
           }
@@ -614,6 +629,7 @@
             "Microsoft.EntityFrameworkCore.SqlServer": "10.0.0",
             "Microsoft.EntityFrameworkCore.Tools": "10.0.0",
             "Microsoft.Extensions.Http": "10.0.0",
+            "Microsoft.Extensions.Logging.Debug": "10.0.0",
             "Microsoft.NET.Test.Sdk": "17.14.1",
             "Moq": "4.20.72",
             "NUlid": "1.7.3",
@@ -640,7 +656,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/roberto/.dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -918,23 +934,30 @@
         }
       }
     },
-    "/home/roberto/playground/src/FamilyChat.Contracts/FamilyChat.Contracts.csproj": {
+    "D:\\Projects\\playground\\src\\FamilyChat.Contracts\\FamilyChat.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/roberto/playground/src/FamilyChat.Contracts/FamilyChat.Contracts.csproj",
+        "projectUniqueName": "D:\\Projects\\playground\\src\\FamilyChat.Contracts\\FamilyChat.Contracts.csproj",
         "projectName": "FamilyChat.Contracts",
-        "projectPath": "/home/roberto/playground/src/FamilyChat.Contracts/FamilyChat.Contracts.csproj",
-        "packagesPath": "/home/roberto/.nuget/packages/",
-        "outputPath": "/home/roberto/playground/src/FamilyChat.Contracts/obj/",
+        "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Contracts\\FamilyChat.Contracts.csproj",
+        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\playground\\src\\FamilyChat.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/roberto/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -974,6 +997,7 @@
             "Microsoft.EntityFrameworkCore.SqlServer": "10.0.0",
             "Microsoft.EntityFrameworkCore.Tools": "10.0.0",
             "Microsoft.Extensions.Http": "10.0.0",
+            "Microsoft.Extensions.Logging.Debug": "10.0.0",
             "Microsoft.NET.Test.Sdk": "17.14.1",
             "Moq": "4.20.72",
             "NUlid": "1.7.3",
@@ -1000,7 +1024,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/roberto/.dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1278,23 +1302,30 @@
         }
       }
     },
-    "/home/roberto/playground/src/FamilyChat.Domain/FamilyChat.Domain.csproj": {
+    "D:\\Projects\\playground\\src\\FamilyChat.Domain\\FamilyChat.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/roberto/playground/src/FamilyChat.Domain/FamilyChat.Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\playground\\src\\FamilyChat.Domain\\FamilyChat.Domain.csproj",
         "projectName": "FamilyChat.Domain",
-        "projectPath": "/home/roberto/playground/src/FamilyChat.Domain/FamilyChat.Domain.csproj",
-        "packagesPath": "/home/roberto/.nuget/packages/",
-        "outputPath": "/home/roberto/playground/src/FamilyChat.Domain/obj/",
+        "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Domain\\FamilyChat.Domain.csproj",
+        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\playground\\src\\FamilyChat.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/roberto/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1334,6 +1365,7 @@
             "Microsoft.EntityFrameworkCore.SqlServer": "10.0.0",
             "Microsoft.EntityFrameworkCore.Tools": "10.0.0",
             "Microsoft.Extensions.Http": "10.0.0",
+            "Microsoft.Extensions.Logging.Debug": "10.0.0",
             "Microsoft.NET.Test.Sdk": "17.14.1",
             "Moq": "4.20.72",
             "NUlid": "1.7.3",
@@ -1360,7 +1392,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/roberto/.dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1638,34 +1670,41 @@
         }
       }
     },
-    "/home/roberto/playground/src/FamilyChat.Infrastructure/FamilyChat.Infrastructure.csproj": {
+    "D:\\Projects\\playground\\src\\FamilyChat.Infrastructure\\FamilyChat.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/roberto/playground/src/FamilyChat.Infrastructure/FamilyChat.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projects\\playground\\src\\FamilyChat.Infrastructure\\FamilyChat.Infrastructure.csproj",
         "projectName": "FamilyChat.Infrastructure",
-        "projectPath": "/home/roberto/playground/src/FamilyChat.Infrastructure/FamilyChat.Infrastructure.csproj",
-        "packagesPath": "/home/roberto/.nuget/packages/",
-        "outputPath": "/home/roberto/playground/src/FamilyChat.Infrastructure/obj/",
+        "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Infrastructure\\FamilyChat.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\playground\\src\\FamilyChat.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/roberto/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/roberto/playground/src/FamilyChat.Application/FamilyChat.Application.csproj": {
-                "projectPath": "/home/roberto/playground/src/FamilyChat.Application/FamilyChat.Application.csproj"
+              "D:\\Projects\\playground\\src\\FamilyChat.Application\\FamilyChat.Application.csproj": {
+                "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Application\\FamilyChat.Application.csproj"
               },
-              "/home/roberto/playground/src/FamilyChat.Domain/FamilyChat.Domain.csproj": {
-                "projectPath": "/home/roberto/playground/src/FamilyChat.Domain/FamilyChat.Domain.csproj"
+              "D:\\Projects\\playground\\src\\FamilyChat.Domain\\FamilyChat.Domain.csproj": {
+                "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Domain\\FamilyChat.Domain.csproj"
               }
             }
           }
@@ -1738,6 +1777,7 @@
             "Microsoft.EntityFrameworkCore.SqlServer": "10.0.0",
             "Microsoft.EntityFrameworkCore.Tools": "10.0.0",
             "Microsoft.Extensions.Http": "10.0.0",
+            "Microsoft.Extensions.Logging.Debug": "10.0.0",
             "Microsoft.NET.Test.Sdk": "17.14.1",
             "Moq": "4.20.72",
             "NUlid": "1.7.3",
@@ -1764,7 +1804,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/roberto/.dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -2042,34 +2082,41 @@
         }
       }
     },
-    "/home/roberto/playground/tests/FamilyChat.RealtimeTests/FamilyChat.RealtimeTests.csproj": {
+    "D:\\Projects\\playground\\tests\\FamilyChat.RealtimeTests\\FamilyChat.RealtimeTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/roberto/playground/tests/FamilyChat.RealtimeTests/FamilyChat.RealtimeTests.csproj",
+        "projectUniqueName": "D:\\Projects\\playground\\tests\\FamilyChat.RealtimeTests\\FamilyChat.RealtimeTests.csproj",
         "projectName": "FamilyChat.RealtimeTests",
-        "projectPath": "/home/roberto/playground/tests/FamilyChat.RealtimeTests/FamilyChat.RealtimeTests.csproj",
-        "packagesPath": "/home/roberto/.nuget/packages/",
-        "outputPath": "/home/roberto/playground/tests/FamilyChat.RealtimeTests/obj/",
+        "projectPath": "D:\\Projects\\playground\\tests\\FamilyChat.RealtimeTests\\FamilyChat.RealtimeTests.csproj",
+        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\playground\\tests\\FamilyChat.RealtimeTests\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/roberto/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/roberto/playground/src/FamilyChat.Api/FamilyChat.Api.csproj": {
-                "projectPath": "/home/roberto/playground/src/FamilyChat.Api/FamilyChat.Api.csproj"
+              "D:\\Projects\\playground\\src\\FamilyChat.Api\\FamilyChat.Api.csproj": {
+                "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Api\\FamilyChat.Api.csproj"
               },
-              "/home/roberto/playground/src/FamilyChat.Contracts/FamilyChat.Contracts.csproj": {
-                "projectPath": "/home/roberto/playground/src/FamilyChat.Contracts/FamilyChat.Contracts.csproj"
+              "D:\\Projects\\playground\\src\\FamilyChat.Contracts\\FamilyChat.Contracts.csproj": {
+                "projectPath": "D:\\Projects\\playground\\src\\FamilyChat.Contracts\\FamilyChat.Contracts.csproj"
               }
             }
           }
@@ -2137,6 +2184,7 @@
             "Microsoft.EntityFrameworkCore.SqlServer": "10.0.0",
             "Microsoft.EntityFrameworkCore.Tools": "10.0.0",
             "Microsoft.Extensions.Http": "10.0.0",
+            "Microsoft.Extensions.Logging.Debug": "10.0.0",
             "Microsoft.NET.Test.Sdk": "17.14.1",
             "Moq": "4.20.72",
             "NUlid": "1.7.3",
@@ -2163,7 +2211,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/roberto/.dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

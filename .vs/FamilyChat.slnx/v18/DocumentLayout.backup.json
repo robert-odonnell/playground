@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\playground\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E251D325-6079-008E-7916-6050BC0FB4BC}|src\\FamilyChat.Api\\FamilyChat.Api.csproj|d:\\projects\\playground\\src\\familychat.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E251D325-6079-008E-7916-6050BC0FB4BC}|src\\FamilyChat.Api\\FamilyChat.Api.csproj|solutionrelative:src\\familychat.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F6BD56-7B0D-902F-FA17-B71338027B8F}|src\\FamilyChat.Application\\FamilyChat.Application.csproj|d:\\projects\\playground\\src\\familychat.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5F6BD56-7B0D-902F-FA17-B71338027B8F}|src\\FamilyChat.Application\\FamilyChat.Application.csproj|solutionrelative:src\\familychat.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E251D325-6079-008E-7916-6050BC0FB4BC}|src\\FamilyChat.Api\\FamilyChat.Api.csproj|d:\\projects\\playground\\src\\familychat.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E251D325-6079-008E-7916-6050BC0FB4BC}|src\\FamilyChat.Api\\FamilyChat.Api.csproj|solutionrelative:src\\familychat.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD1DD6-ABA4-A8BE-B655-0434DF1E17C5}|src\\FamilyChat.AdminTool\\FamilyChat.AdminTool.csproj|d:\\projects\\playground\\src\\familychat.admintool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FD1DD6-ABA4-A8BE-B655-0434DF1E17C5}|src\\FamilyChat.AdminTool\\FamilyChat.AdminTool.csproj|solutionrelative:src\\familychat.admintool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD1DD6-ABA4-A8BE-B655-0434DF1E17C5}|src\\FamilyChat.AdminTool\\FamilyChat.AdminTool.csproj|d:\\projects\\playground\\src\\familychat.admintool\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FD1DD6-ABA4-A8BE-B655-0434DF1E17C5}|src\\FamilyChat.AdminTool\\FamilyChat.AdminTool.csproj|solutionrelative:src\\familychat.admintool\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rober\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250606001\\buildTransitive\\Microsoft.Build.Msix.Packaging.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD1DD6-ABA4-A8BE-B655-0434DF1E17C5}|src\\FamilyChat.AdminTool\\FamilyChat.AdminTool.csproj|d:\\projects\\playground\\src\\familychat.admintool\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65FD1DD6-ABA4-A8BE-B655-0434DF1E17C5}|src\\FamilyChat.AdminTool\\FamilyChat.AdminTool.csproj|solutionrelative:src\\familychat.admintool\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E251D325-6079-008E-7916-6050BC0FB4BC}|src\\FamilyChat.Api\\FamilyChat.Api.csproj|d:\\projects\\playground\\src\\familychat.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E251D325-6079-008E-7916-6050BC0FB4BC}|src\\FamilyChat.Api\\FamilyChat.Api.csproj|solutionrelative:src\\familychat.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE928D4-1BDA-ACA7-F622-A00F43A7EB2D}|src\\FamilyChat.Maui\\FamilyChat.Maui.csproj|d:\\projects\\playground\\src\\familychat.maui\\services\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE928D4-1BDA-ACA7-F622-A00F43A7EB2D}|src\\FamilyChat.Maui\\FamilyChat.Maui.csproj|solutionrelative:src\\familychat.maui\\services\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE928D4-1BDA-ACA7-F622-A00F43A7EB2D}|src\\FamilyChat.Maui\\FamilyChat.Maui.csproj|d:\\projects\\playground\\src\\familychat.maui\\services\\installationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE928D4-1BDA-ACA7-F622-A00F43A7EB2D}|src\\FamilyChat.Maui\\FamilyChat.Maui.csproj|solutionrelative:src\\familychat.maui\\services\\installationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE928D4-1BDA-ACA7-F622-A00F43A7EB2D}|src\\FamilyChat.Maui\\FamilyChat.Maui.csproj|d:\\projects\\playground\\src\\familychat.maui\\familychat.maui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8AE928D4-1BDA-ACA7-F622-A00F43A7EB2D}|src\\FamilyChat.Maui\\FamilyChat.Maui.csproj|solutionrelative:src\\familychat.maui\\familychat.maui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE928D4-1BDA-ACA7-F622-A00F43A7EB2D}|src\\FamilyChat.Maui\\FamilyChat.Maui.csproj|d:\\projects\\playground\\src\\familychat.maui\\familychat.maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8AE928D4-1BDA-ACA7-F622-A00F43A7EB2D}|src\\FamilyChat.Maui\\FamilyChat.Maui.csproj|solutionrelative:src\\familychat.maui\\familychat.maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.Build.Msix.Packaging.targets",
+              "DocumentMoniker": "C:\\Users\\rober\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250606001\\buildTransitive\\Microsoft.Build.Msix.Packaging.targets",
+              "ToolTip": "C:\\Users\\rober\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250606001\\buildTransitive\\Microsoft.Build.Msix.Packaging.targets",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAiwI4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-24T09:55:30.767Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.AdminTool\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\FamilyChat.AdminTool\\appsettings.json",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.AdminTool\\appsettings.json",
+              "RelativeToolTip": "src\\FamilyChat.AdminTool\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-24T11:17:42.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\FamilyChat.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\FamilyChat.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-24T10:41:26.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.AdminTool\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\FamilyChat.AdminTool\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.AdminTool\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "src\\FamilyChat.AdminTool\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T11:18:38.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\FamilyChat.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\FamilyChat.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T10:47:41.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.AdminTool\\Program.cs",
+              "RelativeDocumentMoniker": "src\\FamilyChat.AdminTool\\Program.cs",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.AdminTool\\Program.cs",
+              "RelativeToolTip": "src\\FamilyChat.AdminTool\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T11:26:22.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\FamilyChat.Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "src\\FamilyChat.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwFIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T11:33:26.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\FamilyChat.Api\\appsettings.json",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.Api\\appsettings.json",
+              "RelativeToolTip": "src\\FamilyChat.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-24T10:41:22.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppState.cs",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.Maui\\Services\\AppState.cs",
+              "RelativeDocumentMoniker": "src\\FamilyChat.Maui\\Services\\AppState.cs",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.Maui\\Services\\AppState.cs",
+              "RelativeToolTip": "src\\FamilyChat.Maui\\Services\\AppState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T10:40:43.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InstallationService.cs",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.Maui\\Services\\InstallationService.cs",
+              "RelativeDocumentMoniker": "src\\FamilyChat.Maui\\Services\\InstallationService.cs",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.Maui\\Services\\InstallationService.cs",
+              "RelativeToolTip": "src\\FamilyChat.Maui\\Services\\InstallationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T10:40:40.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FamilyChat.Maui",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.Maui\\FamilyChat.Maui.csproj",
+              "RelativeDocumentMoniker": "src\\FamilyChat.Maui\\FamilyChat.Maui.csproj",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.Maui\\FamilyChat.Maui.csproj",
+              "RelativeToolTip": "src\\FamilyChat.Maui\\FamilyChat.Maui.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-24T09:57:09.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FamilyChat.Maui.csproj",
+              "DocumentMoniker": "D:\\Projects\\playground\\src\\FamilyChat.Maui\\FamilyChat.Maui.csproj",
+              "RelativeDocumentMoniker": "src\\FamilyChat.Maui\\FamilyChat.Maui.csproj",
+              "ToolTip": "D:\\Projects\\playground\\src\\FamilyChat.Maui\\FamilyChat.Maui.csproj",
+              "RelativeToolTip": "src\\FamilyChat.Maui\\FamilyChat.Maui.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-24T09:51:45.655Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

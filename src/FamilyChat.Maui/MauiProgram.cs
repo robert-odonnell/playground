@@ -21,9 +21,19 @@ public static class MauiProgram
         builder.Services.AddSingleton<AppState>();
         builder.Services.AddSingleton<InstallationService>();
 
-        builder.Services.AddHttpClient<FamilyChatApiClient>(client =>
+        builder.Services.AddHttpClient("FamilyChatApi", client =>
         {
             client.BaseAddress = new Uri("http://localhost:5000/");
+        });
+
+        builder.Services.AddSingleton<FamilyChatApiClient>(provider =>
+        {
+            var httpClientFactory = provider.GetRequiredService<IHttpClientFactory>();
+            var state = provider.GetRequiredService<AppState>();
+            return new FamilyChatApiClient(httpClientFactory.CreateClient("FamilyChatApi"))
+            {
+                AccessToken = state.AccessToken
+            };
         });
 
         builder.Services.AddSingleton<FamilyChatRealtimeClient>(provider =>

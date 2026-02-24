@@ -33,15 +33,15 @@ public sealed class AuthService(
             return;
         }
 
-        var rawToken = tokenService.CreateOpaqueToken();
-        var tokenHash = CryptoHelpers.HashToken(rawToken);
+        var rawToken = CryptoHelpers.CreateMagicCode(6);
+        var normalizedToken = CryptoHelpers.NormalizeMagicCode(rawToken);
         var now = DateTime.UtcNow;
 
         var entity = new MagicLinkToken
         {
             Id = Guid.NewGuid(),
             UserId = user.Id,
-            TokenHash = tokenHash,
+            TokenHash = normalizedToken,
             CreatedAt = now,
             ExpiresAt = now.AddMinutes(authOptions.Value.MagicLinkLifetimeMinutes)
         };
@@ -56,7 +56,7 @@ public sealed class AuthService(
         }
 
         var separator = baseUrl!.Contains('?', StringComparison.Ordinal) ? "&" : "?";
-        var link = $"{baseUrl}{separator}email={Uri.EscapeDataString(user.Email)}&token={Uri.EscapeDataString(rawToken)}";
+        var link = $"{baseUrl}{separator}email={Uri.EscapeDataString(user.Email)}&token={Uri.EscapeDataString(normalizedToken)}";
         await emailSender.SendMagicLinkAsync(user.Email, user.DisplayName, link, cancellationToken);
     }
 
@@ -79,11 +79,11 @@ public sealed class AuthService(
             throw new ForbiddenException("User is disabled.");
         }
 
-        var tokenHash = CryptoHelpers.HashToken(request.Token);
+        var normalizedToken = CryptoHelpers.NormalizeMagicCode(request.Token);
         var link = await dbContext.MagicLinkTokens
             .FirstOrDefaultAsync(candidate =>
                 candidate.UserId == user.Id &&
-                candidate.TokenHash == tokenHash &&
+                candidate.TokenHash == normalizedToken &&
                 candidate.ConsumedAt == null &&
                 candidate.ExpiresAt > now,
                 cancellationToken)

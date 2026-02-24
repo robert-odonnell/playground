@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/FamilyChat.AdminTool/FamilyChat.AdminTool.csproj" />
     <Project Path="src/FamilyChat.Api/FamilyChat.Api.csproj" />
     <Project Path="src/FamilyChat.Application/FamilyChat.Application.csproj" />
     <Project Path="src/FamilyChat.ClientSdk/FamilyChat.ClientSdk.csproj" />

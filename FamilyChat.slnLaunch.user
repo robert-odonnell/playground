@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "src\\FamilyChat.Api\\FamilyChat.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\FamilyChat.AdminTool\\FamilyChat.AdminTool.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\FamilyChat.Maui\\FamilyChat.Maui.csproj",
+        "Action": "Start",
+        "DebugTarget": "FamilyChat.Maui"
+      }
+    ]
+  }
+]

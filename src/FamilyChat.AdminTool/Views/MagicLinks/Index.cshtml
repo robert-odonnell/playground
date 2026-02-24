@@ -1,0 +1,148 @@
+@model FamilyChat.AdminTool.Models.MagicLinks.MagicLinksIndexViewModel
+@{
+    ViewData["Title"] = "Magic Links";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="mb-0">Magic Links</h1>
+    <a class="btn btn-outline-primary" asp-controller="Users" asp-action="Index">Users</a>
+</div>
+
+@if (!string.IsNullOrWhiteSpace(Model.SuccessMessage))
+{
+    <div class="alert alert-success">@Model.SuccessMessage</div>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <div class="alert alert-danger">@Model.ErrorMessage</div>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.GeneratedLink))
+{
+    <div class="card border-success mb-4">
+        <div class="card-header bg-success-subtle">Issued Magic Link</div>
+        <div class="card-body">
+            <p class="mb-2">
+                Expires:
+                <strong>@Model.GeneratedLinkExpiresAt?.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss")</strong>
+            </p>
+            <div class="input-group">
+                <input id="generated-link-input" class="form-control" value="@Model.GeneratedLink" readonly />
+                <button id="copy-link-button" class="btn btn-outline-secondary" type="button">Copy</button>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="card mb-4">
+    <div class="card-header">Issue New Magic Link</div>
+    <div class="card-body">
+        <form asp-action="Issue" method="post" class="row g-3">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-md-6">
+                <label asp-for="IssueForm.UserId" class="form-label">User</label>
+                <select asp-for="IssueForm.UserId" asp-items="Model.ActiveUsers" class="form-select"></select>
+                <span asp-validation-for="IssueForm.UserId" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label asp-for="IssueForm.RedirectUri" class="form-label"></label>
+                <input asp-for="IssueForm.RedirectUri" class="form-control" placeholder="Optional: override default redirect URL" />
+                <span asp-validation-for="IssueForm.RedirectUri" class="text-danger"></span>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Issue Link</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">Recent Magic Links (Last @Model.History.Count)</div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover mb-0">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Status</th>
+                        <th>Issued</th>
+                        <th>Expires</th>
+                        <th>Consumed</th>
+                        <th>Code</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var row in Model.History)
+                    {
+                        <tr>
+                            <td>
+                                <div>@row.DisplayName</div>
+                                <small class="text-muted">@row.Email</small>
+                            </td>
+                            <td>
+                                @if (row.Status == "Active")
+                                {
+                                    <span class="badge text-bg-success">Active</span>
+                                }
+                                else if (row.Status == "Consumed")
+                                {
+                                    <span class="badge text-bg-secondary">Consumed</span>
+                                }
+                                else
+                                {
+                                    <span class="badge text-bg-danger">Expired</span>
+                                }
+                            </td>
+                            <td>@row.CreatedAt.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss")</td>
+                            <td>@row.ExpiresAt.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss")</td>
+                            <td>@(row.ConsumedAt?.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss") ?? "-")</td>
+                            <td><code>@row.TokenCode</code></td>
+                            <td>
+                                @if (!string.IsNullOrWhiteSpace(row.Link))
+                                {
+                                    <code>@row.Link</code>
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Unavailable (invalid base URL)</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                    @if (Model.History.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center text-muted py-4">No magic links found.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        (() => {
+            const copyButton = document.getElementById("copy-link-button");
+            const input = document.getElementById("generated-link-input");
+            if (!copyButton || !input) {
+                return;
+            }
+
+            copyButton.addEventListener("click", async () => {
+                try {
+                    await navigator.clipboard.writeText(input.value);
+                    copyButton.textContent = "Copied";
+                    setTimeout(() => copyButton.textContent = "Copy", 1200);
+                } catch {
+                    input.select();
+                    document.execCommand("copy");
+                }
+            });
+        })();
+    </script>
+}
